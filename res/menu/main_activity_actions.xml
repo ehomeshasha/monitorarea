@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:vlife="http://schemas.android.com/apk/res-auto" >
+    <item android:id="@+id/action_menu"
+          android:title="@string/action_menu"
+          vlife:showAsAction="always" />
+    <item android:id="@+id/action_cart"
+          android:title="@string/action_cart"
+          vlife:showAsAction="always" />
+    <item android:id="@+id/action_order"
+          android:title="@string/action_order"
+          vlife:showAsAction="always" />
+    <item android:id="@+id/action_settings"
+          android:title="@string/action_settings"
+          vlife:showAsAction="never" />
+</menu>
